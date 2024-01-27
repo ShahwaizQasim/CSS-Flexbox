@@ -1,0 +1,36 @@
+.parent{
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+    /* justify-content: space-evenly; */
+    /* justify-content: stretch; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* align-items: stretch; */
+    /* align-items: flex-end; */
+}
+.box{
+    height: 150px;
+    width:300px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box > h3{
+    color: #fff;
+}
+.box > p{
+    color: #fff;
+}
+.special{
+    background-color: aqua;
+    align-self: flex-start;
+    margin-top:10px;
+}
